@@ -1,3 +1,9 @@
+- [背景](#--)
+- [效果](#--)
+- [TODO](#todo)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
 ## 背景
 当使用 PHP 为语言进行开发时，时常有增量覆盖系统环境中的个别文件，并且由于个人开发项目时，ChangeList 进行管理。于是使用此插件，可以批量导出某个 ChangeList 中的文件
 

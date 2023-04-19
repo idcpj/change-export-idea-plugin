@@ -1,7 +1,6 @@
 - [背景](#--)
 - [效果](#--)
 - [TODO](#todo)
-- [Install](#Install)
 
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
@@ -46,8 +45,3 @@ index.html
 - [ ] 针对ChangeList 中勾选的文件进行导出
 - [ ] 编写脚本，在创建前，根据 path.txt ,对目标文件进行备份
 
-
-## Install
-```html
-<iframe width="384px" height="319px" src="https://plugins.jetbrains.com/embeddable/card/21528"></iframe>
-```

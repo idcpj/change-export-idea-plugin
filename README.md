@@ -48,4 +48,6 @@ index.html
 
 
 ## Install
+```html
 <iframe width="384px" height="319px" src="https://plugins.jetbrains.com/embeddable/card/21528"></iframe>
+```

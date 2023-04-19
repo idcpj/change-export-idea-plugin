@@ -14,7 +14,8 @@
          Simple HTML elements (text formatting, paragraphs, and lists) can be added inside of <![CDATA[ ]]> tag.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-description -->
     <description><![CDATA[
-    Rapid export Change the List of files and List attached file path
+    Rapid export Change the List of files and List attached file path.
+    快速导出更改文件列表和列表附加文件路径。
   ]]></description>
 
     <!-- Product and plugin compatibility requirements.

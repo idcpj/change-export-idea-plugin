@@ -1,6 +1,8 @@
 - [背景](#--)
 - [效果](#--)
 - [TODO](#todo)
+- [Install](#Install)
+
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
@@ -32,8 +34,18 @@ tp_2023-04-19_02-47-58
  └── path.txt
 ```
 
+path.txt  内容
+```
+database/seeds/User.php
+index.html
+```
+
 ## TODO
 
 - [x] 导出指定的 ChangeList 中的文件，并生成文件夹
 - [ ] 针对ChangeList 中勾选的文件进行导出
 - [ ] 编写脚本，在创建前，根据 path.txt ,对目标文件进行备份
+
+
+## Install
+<iframe width="384px" height="319px" src="https://plugins.jetbrains.com/embeddable/card/21528"></iframe>

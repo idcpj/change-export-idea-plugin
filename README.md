@@ -1,5 +1,6 @@
-- [背景](#--)
-- [效果](#--)
+- [背景](#背景)
+- [效果](#效果)
+- [Link](#link)
 - [TODO](#todo)
 
 
@@ -39,6 +40,8 @@ database/seeds/User.php
 index.html
 ```
 
+## Link
+- [jetbrains plugins 插件主页](https://plugins.jetbrains.com/plugin/21528-changefile-export)
 ## TODO
 
 - [x] 导出指定的 ChangeList 中的文件，并生成文件夹

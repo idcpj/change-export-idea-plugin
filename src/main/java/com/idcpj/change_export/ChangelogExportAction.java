@@ -38,7 +38,7 @@ public class ChangelogExportAction extends AnAction {
         // 获取当前选中的changelist
         // todo 目前无法实现
 
-        // 方法二
+        // methods one
 //        Iterable<VirtualFile> data = event.getData(VcsDataKeys.VIRTUAL_FILES);
 //        if (data==null){
 //            return;
@@ -47,7 +47,7 @@ public class ChangelogExportAction extends AnAction {
 //            selectedList.add(file);
 //        }
 
-//         方法一
+//         methods two
         ListSelection<Change> data = event.getData(VcsDataKeys.CHANGES_SELECTION);
         if (data==null){
             return;
@@ -98,7 +98,7 @@ public class ChangelogExportAction extends AnAction {
             }
 
             // 创建并写入path.txt
-            String path = createProjectDir + "/path.txt";
+            String path = createProjectDir + "/"+dateFormat.format(date)+"_path.txt";
             FileWriter writer = new FileWriter(path);
 
             for (VirtualFile file : selectedList) {

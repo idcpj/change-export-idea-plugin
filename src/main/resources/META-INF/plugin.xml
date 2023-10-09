@@ -30,9 +30,10 @@
 
 
         <action id="idcpj.ChangelogExport" class="com.idcpj.change_export.ChangelogExportAction"
-                text="Export Files" description="导出changlog list">
+                text="Export Files" description="导出 ChangeLog List">
             <add-to-group group-id="ChangesViewPopupMenu" anchor="last"/>
-<!--            <keyboard-shortcut keymap="$default" first-keystroke="ctrl NUMPAD7"/>-->
+            <add-to-group group-id="Vcs.RepositoryChangesBrowserMenu" anchor="last" />
+            <add-to-group group-id="ShelvedChangesPopupMenu" anchor="last" />
         </action>
 
     </actions>
